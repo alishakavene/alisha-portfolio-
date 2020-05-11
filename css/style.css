@@ -75,3 +75,67 @@ body{
   background: rgb(0, 0, 0,0.6);
   color: white;
 }
+.showcase-content h1{
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+.showcase-content .btn{
+  font-size: 1rem;
+  padding: 1rem 5rem;
+  transition: color 0.3s;
+  background: 0.3s;
+}
+.showcase-content .btn:hover{
+  background: #333;
+  color: white;
+
+}
+.btn{
+  color: grey;
+  text-decoration: none;
+  display: inline-block;
+  padding:1rem 2rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-weight: bold;
+}
+/*about me*/
+#about {
+  padding: 0rem;
+}
+#about h2{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  font-family:fantasy;
+}
+#about h3{
+font-size: 1rem;
+margin-bottom: 1rem;
+}
+#about p.lead{
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+#about .about-content{
+  display: flex;
+}
+#about .about-text,
+#about .about-image{
+  flex:1;
+}
+#about .about-text{
+  text-align: justify;
+
+}
+
+#about .about-image img {
+  display: block;
+  margin-left: auto;
+  width: 60%;
+  border-radius: 400%;
+  margin-top: 60px;
+}
+#about li a {
+  color: grey;
+}
