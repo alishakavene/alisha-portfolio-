@@ -139,3 +139,32 @@ margin-bottom: 1rem;
 #about li a {
   color: grey;
 }
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background:#333;
+  height: 300px;
+}
+.form{
+  color: transparent;
+}
+.content {
+  display: relative;
+  flex-basis: 50%;
+}
+.social{
+  float: left;
+  line-height: 30px;
+}
+
+.facebook{
+  color: white;
+
+}
+.twitter{
+  color: white;
+}
+.linkedin{
+  color:white;
+}
