@@ -12,6 +12,21 @@ body{
   overflow-x: hidden;
   background-color: black;
 }
+/*socials*/
+.social{
+  position:fixed;
+  top:30%;
+}
+.social ul{
+  list-style-type:none;
+  padding:0;
+  transform:translateX(-270);
+}
+.social ul li {
+  display:block;
+  margin:5px;
+  background-color:rgba (0,0,0,0.5);
+}
 /*utility classes*/
 .container{
   max-width: 1100px;
