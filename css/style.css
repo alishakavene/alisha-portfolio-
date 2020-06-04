@@ -88,6 +88,7 @@ body{
   top:0;
   z-index: 1;
   border-bottom: 2px solid white;
+  height: 30px;
 }
 #navbar ul{
   display: flex;
