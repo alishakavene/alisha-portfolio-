@@ -20,13 +20,56 @@ body{
 .social ul{
   list-style-type:none;
   padding:0;
-  transform:translateX(-270);
+  transform:translateX(-270px);
 }
 .social ul li {
   display:block;
   margin:5px;
-  background-color:rgba (0,0,0,0.5);
+  background-color:rgba (0, 0, 0, 0.5);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 0 30px 30px 0;
+  transition: all 1s;
 }
+.social ul li:hover{
+  transform: translateX(108px);
+}
+.social ul li.g-mail:hover{
+  background-color: black;
+}
+.social ul li.facebook:hover{
+  background-color: black;
+}
+.social ul li.twitter:hover{
+  background-color: black;
+}
+.social ul li.instagram:hover{
+  background-color: black;
+}
+
+.social ul li a{
+  color: white;
+  text-decoration: none;
+}
+.social ul li i{
+  text-align: center;
+  margin-left: 10px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  transform: rotate(0deg);
+}
+.social ul li:hover i {
+  transform: rotate(360deg);
+  transition: all 1s;
+
+}
+
 /*utility classes*/
 .container{
   max-width: 1100px;
