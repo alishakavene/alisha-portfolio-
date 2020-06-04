@@ -100,6 +100,9 @@ body{
   text-decoration: none;
   justify-content: space-between;
 }
+h2{
+  margin-top: -5px;
+}
 #navbar li a{
   text-decoration: none;
   color: white;
