@@ -83,10 +83,12 @@ body{
   display:flex;
   justify-content: space-between;
   background-color: black;
+
   padding: 1rem 1rem;
   position: sticky;
   top:0;
   z-index: 1;
+ box-shadow: 1px white;
   height: 30px;
 }
 #navbar ul{
@@ -160,4 +162,43 @@ h2{
   border-radius: 10px;
   font-weight: bold;
 }
+/*about me*/
+#about {
+  padding: 0rem;
+}
+#about h2{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  font-family:fantasy;
+}
+#about h3{
+font-size: 1rem;
+margin-bottom: 1rem;
+}
+#about p.lead{
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+#about .about-content{
+  display: flex;
+}
+#about .about-text,
+#about .about-image{
+  flex:1;
+}
+#about .about-text{
+  text-align: justify;
 
+}
+
+#about .about-image img {
+  display: block;
+  margin-left: auto;
+  width: 60%;
+  border-radius: 400%;
+  margin-top: 60px;
+}
+#about li a {
+  color: grey;
+}
