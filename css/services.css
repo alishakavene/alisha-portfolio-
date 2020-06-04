@@ -1,0 +1,127 @@
+/*general styling*/
+.{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  line-height: 2;
+  color: white;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+/*navbar*/
+#navbar{
+  display:flex;
+  justify-content: space-between;
+  background-color: black;
+
+  padding: 1rem 1rem;
+  position: sticky;
+  top:0;
+  z-index: 1;
+ box-shadow: 1px white;
+  height: 30px;
+}
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+#navbar h2 a{
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+}
+h2{
+  margin-top: -5px;
+}
+#navbar li a{
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition:color 0.3s;
+}
+#navbar li a:hover{
+  background-color: #333;
+}
+/*contact footer*/
+#contact{
+  padding: 3rem 0;
+}
+#contact h2{
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 6rem;
+}
+#contact h3{
+  text-align: center;
+  font-size: 2rem;
+  margin: 3rem 0;
+  margin-top: 5rem;
+}
+#contact .form-box{
+  background-color: black;
+padding: 3rem;
+box-shadow: 2px 2px 5px white;
+border-radius: 10px;
+}
+#contact .form-group{
+  margin-bottom: 2rem;
+}
+#contact .form-group label{
+  display: white;
+  margin-bottom: 0.5rem;
+  width: 50%;
+  margin-left: 10%;
+  font-size: 1rem;
+}
+#contact .form-group input,
+#contact .form-group textarea {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1rem;
+  padding: 1rem;
+  border:0.5px solid white;
+  border-radius: 5px;
+}
+#contact .form-group textarea{
+  font-family: sans-serif;
+}
+#contact .contact-btn{
+  width: 80%;
+  margin-left: 10%;
+  display:inline-block;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#contact .contact-btn:hover{
+  background: lightgrey;
+}
+#contact .form-container{
+  position: relative;
+}
+#contact .mail-icon{
+  font-size: 2rem;
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 1rem 1rem;
+  border-radius: 80%;
+  position:absolute;
+  left: 45%;
+}
